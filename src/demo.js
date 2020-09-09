@@ -34,7 +34,7 @@ class Demo extends Component{
 
         createAlert=(e)=>{
 
-            alert("Name:"+this.state.Name+",Age:"+this.state.Age)
+            alert("Name:"+this.state.Name+"\nAge:"+this.state.Age)
         }
     render(){
 
