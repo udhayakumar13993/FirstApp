@@ -6,7 +6,8 @@ class Demo extends Component{
         return(
 
             <div>
-                <p>Demo App </p>    
+               <h2>Heloo</h2>
+               <button>Submit</button>  
             </div>    
         )
     }
