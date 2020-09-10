@@ -19,9 +19,8 @@ class Demo extends Component{
                 {
                     Name:e.target.value                    
                 }
-
-                );
-        }
+        );}
+        
         handleAgeChange=(e)=>{
 
             this.setState(
