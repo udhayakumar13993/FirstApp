@@ -1,6 +1,21 @@
 .App {
   text-align: center;
 }
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  display: table;
+  clear: both;
+}
 
 .App-logo {
   height: 40vmin;
